@@ -81,6 +81,7 @@ VITE_APP_TITLE=app_name`
 
 ## Folder Structure
 
+```
 ├── packages/ # Packages
 │ ├── components/ # Reusable components
 │ │ ├──button/ # Button component
@@ -100,3 +101,4 @@ VITE_APP_TITLE=app_name`
 ├── .gitignore # Files to ignore in Git
 ├── package.json # Project metadata & dependencies
 ├── README.md # Documentation
+```
