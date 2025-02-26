@@ -2,7 +2,7 @@ import "./index.css";
 import Header from "../../components/header/index.jsx";
 import Button from "../../components/button/index.jsx";
 
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
 import { removeFromCart, clearCart, setOrder } from "../../data/cartSlice";
@@ -53,7 +53,7 @@ export default function Order() {
       });
 
       setTimeout(() => {
-        navigate(`/eta`); // Redirect to ETA page
+        navigate(`/eta`);
       }, 1000);
     } catch (error) {
       console.error("Error placing order:", error);

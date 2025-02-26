@@ -33,7 +33,7 @@ export default function Eta() {
     );
   }
 
-  // ✅ Calculate ETA in minutes
+  // Calculate ETA in minutes
   const calculateEta = () => {
     const currentTime = new Date();
     return Math.round((etaTime - currentTime) / 60000);
@@ -41,12 +41,12 @@ export default function Eta() {
 
   const [etaMinutes, setEtaMinutes] = useState(calculateEta);
 
-  // ✅ Update ETA every second
+  // Update ETA every second
   useEffect(() => {
     const interval = setInterval(() => {
       const newEtaMinutes = calculateEta();
 
-      // ✅ Stop countdown when ETA reaches 0
+      // Stop countdown when ETA reaches 0
       if (newEtaMinutes <= 0) {
         setEtaMinutes(0);
         clearInterval(interval); // Stop updating
@@ -55,8 +55,8 @@ export default function Eta() {
       }
     }, 1000);
 
-    return () => clearInterval(interval); // ✅ Cleanup on unmount
-  }, [etaMinutes]); // ✅ Only re-run when `etaMinutes` changes
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, [etaMinutes]); // Only re-run when `etaMinutes` changes
 
   return (
     <>

@@ -39,7 +39,6 @@ export default function Receipt() {
     <div className="container container_brown">
       <Header logo_visible={true} cart_visible={false} />
 
-      {/* Receipt Box */}
       <div className="receipt">
         <div className="receipt-header">
           <img src={Logo2} alt="Receipt Logo" width="50" />
@@ -52,7 +51,6 @@ export default function Receipt() {
           </div>
         ) : (
           <>
-            {/* Items List */}
             <div className="receipt-items">
               {groupedItemsArray.map((item, index) => (
                 <div className="item" key={index}>
@@ -64,7 +62,6 @@ export default function Receipt() {
               ))}
             </div>
 
-            {/* Total Section */}
             <div className="receipt-total">
               <span>TOTALT</span>
               <span className="dots"></span>
@@ -75,7 +72,6 @@ export default function Receipt() {
         )}
       </div>
 
-      {/* New Order Button */}
       <Link to="/">
         <Button
           type={"next"}

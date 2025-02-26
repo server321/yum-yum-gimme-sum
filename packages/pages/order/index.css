@@ -4,7 +4,7 @@
   padding: 16px;
   flex-grow: 1;
   overflow-y: auto;
-  max-height: calc(100vh - 120px); /* Prevents excessive height */
+  max-height: calc(100vh - 120px);
   color: #353131;
 }
 
@@ -15,7 +15,7 @@
 .dots {
   flex-grow: 1;
   border-bottom: 1px dotted black;
-  margin: 0 8px; /* Space between name and price */
+  margin: 0 8px;
 }
 
 .menu-item {
