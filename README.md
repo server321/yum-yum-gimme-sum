@@ -25,25 +25,33 @@ The project is a React-based web application designed to facilitate online food 
 ## Installation
 
 Clone the repository:
-`git clone https://github.com/your-username/your-repo.git
-cd your-repo`
+`git clone https://github.com/server321/yum-yum-gimme-sum.git
+cd yum-yum-gimme-sum`
+
 Install dependencies:
+
 `npm install`
 
 ## Usage
 
 To start the development server:
+
 `npm start`
 
 For production build:
+
 `npm run build`
 
 ## Environment Variables
 
 Create a .env file in the root directory and add the following:
+
 `VITE_API_URL=https://your-api-backend.com
+
 VITE_API_KEY=your_api_key
+
 VITE_API_USER=your_user_id
+
 VITE_APP_TITLE=app_name`
 
 ## Technologies Used
@@ -73,22 +81,22 @@ VITE_APP_TITLE=app_name`
 
 ## Folder Structure
 
-`├── packages/       # Packages
-│   ├── components/ # Reusable components
-│   │   ├──button/  # Button component
-│   │   ├──header/  # Header component
-│   ├── data/       # Redux store and API handling
-│   ├── pages/      # Page components
-│   │   ├──menu/    # Menu component 
-│   │   ├──order/   # Order component 
-│   │   ├──eta      # ETA component
-│   │   ├──receipt  # Receipt component
-│   ├── router/     # Routing
-│   ├── styles/     # Stylesheets
-├── public/         # Static assets
-├── src/            # Main source code
-│   ├── css/        # Stylesheets
-├── .env            # .env file
-├── .gitignore      # Files to ignore in Git
-├── package.json    # Project metadata & dependencies
-├── README.md       # Documentation`
+├── packages/ # Packages
+│ ├── components/ # Reusable components
+│ │ ├──button/ # Button component
+│ │ ├──header/ # Header component
+│ ├── data/ # Redux store and API handling
+│ ├── pages/ # Page components
+│ │ ├──menu/ # Menu component
+│ │ ├──order/ # Order component
+│ │ ├──eta # ETA component
+│ │ ├──receipt # Receipt component
+│ ├── router/ # Routing
+│ ├── styles/ # Stylesheets
+├── public/ # Static assets
+├── src/ # Main source code
+│ ├── css/ # Stylesheets
+├── .env # .env file
+├── .gitignore # Files to ignore in Git
+├── package.json # Project metadata & dependencies
+├── README.md # Documentation
