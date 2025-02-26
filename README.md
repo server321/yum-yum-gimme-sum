@@ -81,24 +81,4 @@ VITE_APP_TITLE=app_name`
 
 ## Folder Structure
 
-```
-├── packages/ # Packages
-│ ├── components/ # Reusable components
-│ │ ├──button/ # Button component
-│ │ ├──header/ # Header component
-│ ├── data/ # Redux store and API handling
-│ ├── pages/ # Page components
-│ │ ├──menu/ # Menu component
-│ │ ├──order/ # Order component
-│ │ ├──eta # ETA component
-│ │ ├──receipt # Receipt component
-│ ├── router/ # Routing
-│ ├── styles/ # Stylesheets
-├── public/ # Static assets
-├── src/ # Main source code
-│ ├── css/ # Stylesheets
-├── .env # .env file
-├── .gitignore # Files to ignore in Git
-├── package.json # Project metadata & dependencies
-├── README.md # Documentation
-```
+![Folders structure](./pics/folders.png)
