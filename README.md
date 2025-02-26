@@ -6,17 +6,21 @@ The project is a React-based web application designed to facilitate online food 
 
 ## Key feature:
 
-- Menu
-  ![Menu](./pics/menu.png)
+#### Menu
 
-- Order
-  ![Order](./pics/order.png)
+![Menu](./pics/menu.png)
 
-- ETA
-  ![ETA](./pics/eta.png)
+#### Order
 
-- Receipt
-  ![Receipt](./pics/receipt.png)
+![Order](./pics/order.png)
+
+#### ETA
+
+![ETA](./pics/eta.png)
+
+#### Receipt
+
+![Receipt](./pics/receipt.png)
 
 ## Installation
 
