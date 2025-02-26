@@ -1,0 +1,39 @@
+.order-container {
+  width: 100%;
+  max-width: 750px;
+  padding: 16px;
+  flex-grow: 1;
+  overflow-y: auto;
+  max-height: calc(100vh - 120px); /* Prevents excessive height */
+  color: #353131;
+}
+
+.container_grey {
+  background-color: #eeeeee;
+}
+
+.dots {
+  flex-grow: 1;
+  border-bottom: 1px dotted black;
+  margin: 0 8px; /* Space between name and price */
+}
+
+.menu-item {
+  margin-top: 15px;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.total {
+  display: flex;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 32px;
+  background-color: #c2c1c1;
+
+  padding: 16px;
+
+  border-radius: 4px;
+  width: 100%;
+}

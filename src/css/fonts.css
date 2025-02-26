@@ -1,0 +1,25 @@
+/* Fonts
+Fira Sans	Bold
+Fira Sans	Medium
+Fira Sans	Regular
+ */
+
+html,
+body {
+  font-family: "Fira Sans", serif;
+}
+
+.fira-sans-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-medium {
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-bold {
+  font-weight: 700;
+  font-style: normal;
+}

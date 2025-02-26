@@ -1,0 +1,111 @@
+.menu-container {
+  width: 100%;
+  max-width: 750px;
+  padding: 16px;
+  background: #605858;
+  border-radius: 4px;
+  flex-grow: 1;
+  overflow-y: auto;
+  max-height: calc(100vh - 120px);
+  color: #f4f3f1;
+  opacity: 94%;
+}
+
+.container_background {
+  background: #8ed8bf;
+  background-image: url("./background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-header {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.menu-subheader {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.ingredients {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.menuList {
+  background: #605858;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.menu-item {
+  margin-top: 15px;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.menu-item:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(1.02);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-bottom: none;
+}
+
+.menu-item:hover .item-title {
+  color: #ffd700;
+  transition: color 0.3s ease;
+}
+
+.menu-item:hover .price {
+  text-decoration: underline;
+}
+
+.menu-item-title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.sauces_drinks_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.sauce {
+  background: #f1f0ec3d;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px 0px #00000066;
+}
+
+.sauce:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  color: #ffd700;
+  transition: color 0.3s ease;
+}
+
+.dots {
+  flex-grow: 1;
+  border-bottom: 1px dotted white;
+  margin: 0 8px;
+  background-color: transparent;
+}

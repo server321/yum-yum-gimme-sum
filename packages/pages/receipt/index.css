@@ -1,0 +1,109 @@
+.container_brown {
+  background-color: #605858;
+}
+
+/* Logo */
+.logo img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+/* Receipt Box */
+.receipt {
+  background: #f4f4f4;
+  color: black;
+  width: 100%;
+
+  border-radius: 4px;
+  padding: 16px;
+  box-shadow: 2px 4px 10px #605858;
+}
+
+/* Receipt Header */
+.receipt-header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.receipt-header img {
+  width: 40px;
+}
+
+.receipt-header-error {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.order-id-receipt {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Receipt Items */
+.receipt-items {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 0;
+}
+
+.item-name {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.item-price {
+  font-weight: bold;
+}
+
+.dots {
+  flex-grow: 1;
+  border-bottom: 1px dotted black;
+  margin: 0 8px;
+}
+
+/* Quantity */
+.item-quantity {
+  font-size: 12px;
+  color: #777;
+}
+
+/* Total Box */
+.receipt-total {
+  background: #ddd;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.receipt-total p {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* New Order Button */
+.new-order {
+  background: black;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}

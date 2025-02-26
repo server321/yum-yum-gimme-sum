@@ -1,0 +1,26 @@
+.container_brown {
+  background-color: #605858;
+}
+
+.eta_block {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  display: flex; /* Enables flexbox */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Centers items horizontally */
+  justify-content: center; /* Centers items vertically */
+  text-align: center; /* Ensures text is centered */
+  gap: 10px; /* Optional: Adds space between elements */
+  padding: 16px;
+}
+
+.eta-text {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.order-id {
+  font-size: 15px;
+  color: white;
+}
